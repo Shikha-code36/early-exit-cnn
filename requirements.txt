@@ -1,0 +1,30 @@
+# Core Deep Learning Framework
+torch>=2.0.0           # PyTorch for neural network implementation
+torchvision>=0.15.0    # For CIFAR-10 dataset and image transformations
+
+# Data Processing and Scientific Computing
+numpy>=1.21.0          # For numerical operations and array manipulation
+Pillow>=8.0.0         # For image loading and processing
+scipy>=1.7.0          # For scientific computations
+
+# Visualization Libraries
+matplotlib>=3.5.0      # For creating plots and visualizations
+seaborn>=0.11.0       # For statistical data visualization
+tqdm>=4.62.0          # For progress bars during training
+
+# Development Tools
+pytest>=7.0.0         # For running unit tests
+pytest-cov>=2.12.0    # For code coverage reporting
+black>=22.0.0         # For code formatting
+flake8>=4.0.0         # For code linting
+
+# Jupyter Notebooks
+jupyter>=1.0.0        # For running Jupyter notebooks
+ipykernel>=6.0.0      # IPython kernel for Jupyter
+
+# Optional Development Tools
+pre-commit>=2.17.0    # For running pre-commit hooks
+mypy>=0.910           # For static type checking
+
+# YAML Support
+PyYAML>=6.0           # For reading configuration files
