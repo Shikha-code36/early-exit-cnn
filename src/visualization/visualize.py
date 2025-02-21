@@ -97,7 +97,7 @@ def visualize_class_exits(model, agent, test_loader, num_samples=50):
     plt.ylabel('Class')
     plt.show()
 
-def visualize_exit_decisions(model, agent, test_loader, num_samples=10):
+def visualize_exit_decisions(model, agent, test_loader, num_samples=50):
     """
     Visualize sample images and their exit points.
     Shows confidence levels and actual vs predicted classes.
@@ -107,10 +107,15 @@ def visualize_exit_decisions(model, agent, test_loader, num_samples=10):
 
     model.eval()
     images, labels = next(iter(test_loader))
+    num_samples = min(num_samples, len(images))  # Ensure we don't exceed available images
     images, labels = images[:num_samples].to(device), labels[:num_samples].to(device)
 
-    fig, axes = plt.subplots(2, 5, figsize=(20, 8))
-    axes = axes.ravel()
+    # Calculate grid dimensions - 5 columns, 10 rows for 50 images
+    nrows = 10
+    ncols = 5
+    
+    fig, axes = plt.subplots(nrows, ncols, figsize=(20, 40))  # Increased figure size for visibility
+    axes = axes.ravel()  # Flatten the array of axes
 
     with torch.no_grad():
         for i, (image, label) in enumerate(zip(images, labels)):
@@ -147,7 +152,7 @@ def visualize_exit_decisions(model, agent, test_loader, num_samples=10):
 
     plt.tight_layout()
     plt.show()
-
+    
 def plot_confidence_distributions(model, test_loader):
     """
     Plot confidence distribution at each exit point.
