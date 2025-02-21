@@ -18,6 +18,9 @@ The system consists of two main components:
    - Uses experience replay for stable training
    - Implements epsilon-greedy exploration
 
+
+> **Note:** This project explores Early Exit strategies in Convolutional Neural Networks (CNNs) using Reinforcement Learning (RL). It is a basic experimentation for learning purposes.
+
 ## Results
 
 Our model achieves strong performance metrics:
@@ -35,6 +38,14 @@ Exit Point Distribution:
 Per-Class Performance:
 - Best Classes: Car (96.0%), Frog (94.3%), Ship (93.7%)
 - Most Challenging: Dog (79.3%), Cat (82.1%), Bird (83.2%)
+
+Below are some visualizations of the result from the experiments:
+
+**Per Class Performance**:
+![Per Class Performance](results/plots/class_performance.png)
+**Training Progress**:
+![Training Progress](results/plots/training_progress.png)
+
 
 ## Project Structure
 
