@@ -1,0 +1,21 @@
+{
+    "evaluation_date": "2024-02-21",
+    "exit_confidence_stats": {
+        "exit_1": {
+            "mean_confidence": 0.677,
+            "std_deviation": 0.215
+        },
+        "exit_2": {
+            "mean_confidence": 0.794,
+            "std_deviation": 0.208
+        },
+        "exit_3": {
+            "mean_confidence": 0.838,
+            "std_deviation": 0.185
+        },
+        "exit_4": {
+            "mean_confidence": 0.711,
+            "std_deviation": 0.178
+        }
+    }
+}

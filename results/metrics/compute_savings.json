@@ -1,0 +1,13 @@
+{
+    "evaluation_date": "2024-02-21",
+    "overall_compute_savings": {
+        "total_compute_saved": 38.8,
+        "average_exit_point": 2.84
+    },
+    "exit_point_distribution": {
+        "exit_1_percentage": 5.3,
+        "exit_2_percentage": 34.3,
+        "exit_3_percentage": 31.7,
+        "exit_4_percentage": 28.6
+    }
+}

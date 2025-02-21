@@ -1,0 +1,95 @@
+{
+    "evaluation_date": "2024-02-21",
+    "per_class_accuracies": {
+        "plane": {
+            "accuracy": 92.10,
+            "exit_accuracies": {
+                "exit_1": 68.40,
+                "exit_2": 86.80,
+                "exit_3": 92.90,
+                "exit_4": 92.20
+            }
+        },
+        "car": {
+            "accuracy": 96.00,
+            "exit_accuracies": {
+                "exit_1": 78.30,
+                "exit_2": 92.30,
+                "exit_3": 95.70,
+                "exit_4": 96.10
+            }
+        },
+        "bird": {
+            "accuracy": 83.20,
+            "exit_accuracies": {
+                "exit_1": 45.50,
+                "exit_2": 76.40,
+                "exit_3": 84.20,
+                "exit_4": 83.40
+            }
+        },
+        "cat": {
+            "accuracy": 82.10,
+            "exit_accuracies": {
+                "exit_1": 47.10,
+                "exit_2": 76.70,
+                "exit_3": 82.90,
+                "exit_4": 82.20
+            }
+        },
+        "deer": {
+            "accuracy": 87.90,
+            "exit_accuracies": {
+                "exit_1": 51.90,
+                "exit_2": 78.40,
+                "exit_3": 87.80,
+                "exit_4": 88.00
+            }
+        },
+        "dog": {
+            "accuracy": 79.30,
+            "exit_accuracies": {
+                "exit_1": 62.50,
+                "exit_2": 77.10,
+                "exit_3": 79.40,
+                "exit_4": 79.40
+            }
+        },
+        "frog": {
+            "accuracy": 94.30,
+            "exit_accuracies": {
+                "exit_1": 85.20,
+                "exit_2": 89.90,
+                "exit_3": 92.90,
+                "exit_4": 94.30
+            }
+        },
+        "horse": {
+            "accuracy": 88.10,
+            "exit_accuracies": {
+                "exit_1": 53.10,
+                "exit_2": 80.90,
+                "exit_3": 87.80,
+                "exit_4": 88.10
+            }
+        },
+        "ship": {
+            "accuracy": 93.70,
+            "exit_accuracies": {
+                "exit_1": 79.30,
+                "exit_2": 91.80,
+                "exit_3": 93.40,
+                "exit_4": 93.70
+            }
+        },
+        "truck": {
+            "accuracy": 91.50,
+            "exit_accuracies": {
+                "exit_1": 75.00,
+                "exit_2": 89.10,
+                "exit_3": 91.40,
+                "exit_4": 91.70
+            }
+        }
+    }
+}

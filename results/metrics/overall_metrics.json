@@ -1,0 +1,14 @@
+{
+    "model_version": "early_exit_cnn_v1.0",
+    "evaluation_date": "2024-02-21",
+    "overall_accuracy": 88.82,
+    "exit_distribution": {
+        "exit_1": 5.3,
+        "exit_2": 34.3,
+        "exit_3": 31.7,
+        "exit_4": 28.6
+    },
+    "prediction_changes": 4216,
+    "compute_saved": 38.8,
+    "effectiveness_score": 34.46
+}

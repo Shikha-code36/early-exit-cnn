@@ -1,0 +1,16 @@
+model:
+  num_classes: 10
+  exit_points: 4
+  confidence_thresholds: [0.70, 0.80, 0.85, 0.0]
+
+training:
+  batch_size: 128
+  num_epochs: 50
+  learning_rate: 0.001
+  weight_decay: 1e-4
+
+rl_training:
+  num_episodes: 5000
+  epsilon_start: 1.0
+  epsilon_min: 0.2
+  epsilon_decay: 0.998
