@@ -18,26 +18,47 @@ The system consists of two main components:
    - Uses experience replay for stable training
    - Implements epsilon-greedy exploration
 
-
-> **Note:** This project explores Early Exit strategies in Convolutional Neural Networks (CNNs) using Reinforcement Learning (RL). It is a basic experimentation for learning purposes.
-
 ## Results
 
 Our model achieves strong performance metrics:
 
-- Overall Accuracy: 88.82%
-- Compute Savings: 38.8%
-- Effectiveness Score: 34.46
+- Overall Accuracy: 88.77%
+- Compute Savings: 39.9%
+- Effectiveness Score: 35.38
 
 Exit Point Distribution:
-- Exit 1: 5.3%
-- Exit 2: 34.3%
-- Exit 3: 31.7%
-- Exit 4: 28.6%
+- Exit 1: 4.8%
+- Exit 2: 37.5%
+- Exit 3: 30.3%
+- Exit 4: 27.4%
 
 Per-Class Performance:
-- Best Classes: Car (96.0%), Frog (94.3%), Ship (93.7%)
-- Most Challenging: Dog (79.3%), Cat (82.1%), Bird (83.2%)
+- Best Classes: Ship (94.3%), Car (94.2%), Truck (93.7%)
+- Most Challenging: Dog (78.4%), Cat (80.3%), Bird (80.0%)
+
+Per-Class Exit Performance:
+
+**First Exit (≈67% accuracy)**:
+- Strong: Truck (81.4%), Horse (71.7%), Plane (75.4%)
+- Weak: Bird (40.7%), Cat (42.1%)
+
+**Second Exit (≈78% accuracy)**:
+- Strong: Ship (91.3%), Truck (92.4%), Car (90.8%)
+- Weak: Bird (71.5%), Cat (70.9%)
+
+**Third Exit (≈88% accuracy)**:
+- Strong: Ship (94.5%), Car (94.5%), Plane (92.5%)
+- Weak: Dog (79.7%), Cat (79.3%)
+
+**Final Exit (≈89% accuracy)**:
+- Strong: Car (94.6%), Ship (94.4%), Truck (93.7%)
+- Weak: Dog (78.4%), Bird (80.1%)
+
+Confidence Statistics:
+- Exit 1: Mean=0.673, Std=0.211
+- Exit 2: Mean=0.807, Std=0.206
+- Exit 3: Mean=0.838, Std=0.184
+- Exit 4: Mean=0.706, Std=0.181
 
 Below are some visualizations of the result from the experiments:
 
