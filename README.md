@@ -221,7 +221,7 @@ If you use this code in your research, please cite:
 @misc{early-exit-cnn-2024,
   author = {Shikha Pandey},
   title = {Early Exit CNN with RL-based Decision Making},
-  year = {2024},
+  year = {2025},
   publisher = {GitHub},
   url = {https://github.com/Shikha-code36/early-exit-cnn}
 }
